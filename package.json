@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "core-js": "^3.26.0",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.10",
+    "sass": "^1.56.1"
+  },
+  "name": "18-forkify",
+  "version": "1.0.0",
+  "default": "index.html",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.0",
+    "parcel": "^2.8.0"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Aleksa",
+  "license": "ISC",
+  "description": ""
+}
