@@ -27,36 +27,3 @@ export const AJAX = async function (url, uploadData = undefined) {
 export const numberOfPages = length => {
   return Math.ceil(length / REC_PER_PAGE);
 };
-
-// export const getJSON = async url => {
-//   try {
-//     const response = await Promise.race([fetch(url), timeout(TIMOUT_SEC)]);
-
-//     const data = await response.json();
-
-//     if (!response.ok)
-//       throw new Error(`${data.message} Error code: (${response.status})`);
-
-//     return data;
-//   } catch (err) {
-//     throw err;
-//   }
-// };
-
-// export const sendJSON = async function (url, uploadData) {
-//   try {
-//     const fetchUrl = fetch(url, {
-//       method: 'POST',
-//       headers: {
-//         'Content-Type': 'application/json',
-//       },
-//       body: JSON.stringify(uploadData),
-//     });
-//     const res = await fetchUrl;
-//     const data = await res.json();
-
-//     return data;
-//   } catch (err) {
-//     console.error(err.message);
-//   }
-// };
