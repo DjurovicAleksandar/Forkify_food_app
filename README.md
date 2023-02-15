@@ -23,7 +23,7 @@ Forkify is a vanilla JavaScript application that interacts with the food2fork AP
 ### Built with
 
 - HTML 5
-- CSS 3
+- SASS
 - Flexbox
 - NPM 
 - Parcel
